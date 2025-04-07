@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Italiana", sans-serif;
+    background: #2B6985; 
+}
+
+header {
+    background: #E0D5C1;
+    padding: 10px 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav img {
+    width: 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Italiana", serif;
+    font-size: 16px;
+    transition: color 0.3s ease;
+
+}
+
+nav ul li a:hover {
+    color: #2B6985;
+}
+
+.haztuaporte {
+    background-color: #C4E2F2;
+    padding: 8px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.tituloInicio {
+    background-color: #2B6985;
+    padding: 20px;
+    text-align: center;
+}
+
+.tituloInicio h1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+.tituloInicio a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+.tituloInicio img {
+    width: 500px;
+    margin-top: 10px;
+}
+
+    .aporte {
+        background-color: #2B6985;
+        padding: 80px 20px;
+        text-align: center;
+        color: white;
+    }
+    
+    .aporte-contenido {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    
+    .aporte h2 {
+        font-family: "Italiana", sans-serif;
+        font-weight: 400;
+        transition: 0.3s;
+        font-size: 36px;
+        color: white;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .aporte h6 {
+        font-family: "Italiana", sans-serif;
+        font-weight: 400;
+        transition: 0.3s;
+        font-size: 18px;
+        font-weight: 300;
+        color: white;
+        margin-bottom: 30px;
+    }
+    
+    .aporte img {
+        width: 80px;
+        margin: 30px 0;
+    }
+    
+    .aporte p {
+        font-family: "Italiana", sans-serif;
+        font-weight: 400;
+        transition: 0.3s;
+        color: #DDD;
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    
+    .btn-aporte {
+        background-color: #E0D5C1;
+        color: #2B6985;
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: bold;
+        transition: background 0.3s ease;
+    }
+    
+    .btn-aporte:hover {
+        background-color: #d2c4ae;
+    }
+
+footer {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    transition: 0.3s;
+    background: #E0D5C1;
+text-align: center;
+    padding: 20px;
+}

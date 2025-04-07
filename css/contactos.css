@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Italiana", sans-serif;
+}
+
+header {
+    background: #E0D5C1;
+    padding: 10px 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav img {
+    width: 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Italiana", serif;
+    font-size: 16px;
+    transition: color 0.3s ease;
+
+}
+
+nav ul li a:hover {
+    color: #2B6985;
+}
+  
+  
+  .hero {
+    background-image: url(blob:https://web.whatsapp.com/5d68d16e-644c-4a31-b4e4-8b1d9e3addc1);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+  }
+  
+  .info {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .redes a {
+    font-size: 2em;
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .info h3 {
+    margin-top: 20px;
+  }
+  
+  .info p {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .info i {
+    margin-right: 10px;
+  }
