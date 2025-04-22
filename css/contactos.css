@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-image: url('../imagenes/contactosfondo.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Italiana", sans-serif;
+}
+
+header {
+    background: #E0D5C1;
+    padding: 10px 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav img {
+    width: 70px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Italiana", serif;
+    font-size: 16px;
+    transition: color 0.3s ease;
+
+}
+
+nav ul li a:hover {
+    color: #2B6985;
+}
+
+.haztuaporte {
+    background-color: #C4E2F2;
+    padding: 8px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+main {
+    color: white;
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    transition: 0.3s;
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 120px;
+    border-radius: 10px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+p {
+    display: flex;
+    align-items: center;
+}
+
+p img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+footer {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    transition: 0.3s;
+    text-align: center;
+    background: #E0D5C1;
+    color: #2B6985;
+    padding: 20px;
+}
