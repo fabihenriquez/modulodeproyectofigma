@@ -4,7 +4,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Italiana", sans-serif;
-    background: #2B6985; 
 }
 
 header {
@@ -136,6 +135,7 @@ footer {
     font-weight: 400;
     transition: 0.3s;
     background: #E0D5C1;
+    color: #2B6985;
 text-align: center;
     padding: 20px;
 }
